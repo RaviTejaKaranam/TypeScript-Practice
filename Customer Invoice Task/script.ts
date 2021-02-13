@@ -80,7 +80,7 @@ class account extends Customer{
     this.balance = balance
   }
   toString():string{
-    let customerNameId = this.customer.toString()
+    let customerNameId = super.toString()
     return `${customerNameId} balance = ${this.balance}`
 
   }
